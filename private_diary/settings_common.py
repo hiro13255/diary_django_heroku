@@ -41,8 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'allauth',
     'allauth.account',
-
-    'django_ses',
 ]
 # 認証用ID
 SITE_ID = 1
