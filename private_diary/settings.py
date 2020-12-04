@@ -9,8 +9,10 @@ DEBUG = False
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 # 静的ファイルを配置する場所
-STATIC_ROOT = './static'
-MEDIA_ROOT = './media'
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 # ロギング
 LOGGING = {
