@@ -9,8 +9,8 @@ DEBUG = False
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 # 静的ファイルを配置する場所
-STATIC_ROOT = '/usr/share/nginx/html/static'
-MEDIA_ROOT = '/usr/share/nginx/html/media'
+STATIC_ROOT = './static'
+MEDIA_ROOT = './media'
 
 # ロギング
 LOGGING = {
