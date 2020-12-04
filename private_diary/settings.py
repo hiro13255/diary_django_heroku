@@ -190,7 +190,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',
             'class': 'logging.handlers.TimedRotatingFileHandler',
-            'filename': os.path.join(BASE_DIR, 'logs/django.log'),
+            'filename': os.path.join(PROJECT_ROOT, 'logs/django.log'),
             'formatter': 'prod',
             'when': 'D',  # ログローテーション(新しいファイルへの切り替え)間隔の単位(D=日)
             'interval': 1,  # ログローテーション間隔(1日単位)
