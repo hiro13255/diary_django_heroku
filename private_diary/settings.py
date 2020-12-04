@@ -1,8 +1,6 @@
 import dj_database_url
 import os
 
-from .settings_common import *
-
 # デバッグモードを有効にするかどうか(本番運用では必ずFalseにする)
 DEBUG = False
 
