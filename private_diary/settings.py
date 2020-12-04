@@ -1,6 +1,8 @@
 import dj_database_url
 import os
 
+from django.contrib import messages
+
 # デバッグモードを有効にするかどうか(本番運用では必ずFalseにする)
 DEBUG = False
 
