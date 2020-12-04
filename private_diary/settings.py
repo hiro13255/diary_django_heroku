@@ -1,4 +1,5 @@
 import dj_database_url
+import os
 
 from .settings_common import *
 
@@ -7,12 +8,15 @@ DEBUG = False
 
 # 許可するホスト名のリスト
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
+ROOT_PATH = os.path.dirname(__file__)
 
 # 静的ファイルを配置する場所
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+STATICFILES_DIRS = [os.path.join(ROOT_PATH, 'static')]
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 
