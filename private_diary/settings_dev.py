@@ -1,4 +1,7 @@
+import dj_database_url
+
 from .settings_common import *
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False # 本番ではセキュリティの観点でFalseにする必要あり
