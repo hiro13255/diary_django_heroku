@@ -20,12 +20,12 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
 
-"""
+
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
     os.path.join(BASE_DIR, 'media'),
 )
-"""
+
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '-pqj!zkm4!t3yrclp8vn%i7=weu2g%hv8!#k*vd3an#opqqipb'
