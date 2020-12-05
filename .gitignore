@@ -2,3 +2,4 @@ settings_dev.py
 settings_common.py
 settings_dev 2.py
 settings_common 2.py
+.env
