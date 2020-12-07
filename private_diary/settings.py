@@ -72,6 +72,7 @@ ACCOUNT_LOGOUT_REDIRECT_URL = 'account_login'
 # ログアウトリンクのクリックでログアウトする設定
 ACCOUNT_LOGOUT_ON_GET = True
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
